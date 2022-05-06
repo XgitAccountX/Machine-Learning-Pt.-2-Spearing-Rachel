@@ -36,6 +36,14 @@ Part one: calories spread across multiple distribution.
 
 It was showing a graph of training data for linear regression, but when I changed to test train method it stopped working and threw errors based on input which I wasn't sure how to fix--cutting the rows didn't do anything.
 
+#there were several ways to do this, I read about using the confusion matrix, another was using libararys or using stat_smooth to draw original data and draw the line through it with ggplot2 with Geeksfor Geeks
+
+I thought about using the confusion matrix, which will store the correct value and our predictions, and then we can use a distplot
+to plot them. the code was used from a tutorial/medium article "logistix Regression" by Aditya Kumar. I did run into something which said distplot
+was deprecated, but it did show up at some point.
+https://adityakumar529.medium.com/logistic-regression-using-python-8752d03027be 
+
+
 #part 6. make argument.
 # I believe that logistic regression would've worked better if i had managed to get the error out of my code,
 #I think it woudl handle the multiple different types of vairables
